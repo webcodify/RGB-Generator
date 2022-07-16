@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0,0,0,1);
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 50%;
+    min-width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.2);
+}
+.item{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: red;
+}
+.colorName{
+    color: #c842ff;
+}
+input[type="range"],#output{
+    display: inline-block;
+    margin-top: 20px;
+}
+input[type="range"]{    
+    width: 90%;
+    color: #333;
+    outline: none;
+    margin-left: 5px;
+}
+#output{
+    width: 50%;
+    background: #c842ff;
+    padding: 10px 20px;
+    color: #fff;
+    min-width: 35%;
+}
+
